@@ -1,0 +1,134 @@
+@font-face {
+    src: url("fonts/benzin-extra-bold.ttf");
+    font-family: Benzin;
+}
+
+@font-face {
+    src: url("fonts/AlbertusMTStd.otf");
+    font-family: Albertus;
+}
+
+body {
+    text-align: center;
+    font-family: 'Benzin', 'Arial Black', sans-serif;
+    background: linear-gradient(#0a0b08, #8c191c, #d2b596);
+    color: #d2b596;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Albertus, 'Times New Roman', Times, serif;
+    color: #8c191c;
+    margin: 20px 0 40px;
+}
+
+h3 {
+    font-family: Albertus, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-shadow: 0 0 20px #0a0b08;
+}
+
+h4, p {
+    text-shadow: 0 0 1px black;
+    font-family: Albertus, 'Times New Roman', Times, serif;
+}
+
+#movie-poster-img {
+    width: 800px;
+    height: 600px;
+    border-radius: 0px;
+    border: 6px solid #8c191c;
+    margin-bottom: 10px;
+}
+
+#movie-age {
+    background: #8c191c;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#release-date {
+    margin: 20px;
+    background: #8c191c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scene-section {
+    margin-top: 50px;
+}
+
+.scene-title {
+    margin-bottom: 10px;
+}
+
+.scene-hint {
+    margin-top: 0;
+}
+
+.scene-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/static.gif");
+    background-size: cover;
+}
+
+#scene-img-scared:hover {
+    background-image: url("images/scared.webp");
+}
+
+#scene-img-old:hover {
+    background-image: url("images/old.gif");
+    background-position: center;
+}
+
+#scene-img-elmo:hover {
+    background-image: url("images/elmo.webp");
+}
+
+#scene-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#scene-img-recommend:hover {
+    background-image: url("images/yes.webp");
+}
+
+#footer {
+    font-style: italic;
+    color: #0a0b08;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #8c191c;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
