@@ -1,19 +1,15 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+The Descent – 20th Anniversary Website Project
+A very simple website celebrating the 20th anniversary of The Descent (2005), created as part of my Scrimba Frontend Developer course.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+About
+This project highlights key moments, behind-the-scenes facts, and the film’s legacy. It was built to practise responsive web design and improve my front-end skills.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-Happy Coding!
+Built With
+- HTML
+- CSS
+
+
+Take a look
+[View the site here](https://creative-sprite-64b233.netlify.app/)
